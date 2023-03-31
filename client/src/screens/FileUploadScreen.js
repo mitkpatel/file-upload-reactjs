@@ -6,7 +6,7 @@ import "react-circular-progressbar/dist/styles.css";
 const FileUploadScreen = (props) => {
   const [singleFile, setSingleFile] = useState("");
   const [multipleFiles, setMultipleFiles] = useState("");
-  const [title, setTitle] = useState("");
+  const [title, setTitle] = useState("Untitle");
   const [singleProgress, setSingleProgress] = useState(0);
   const [multipleProgress, setMultipleProgress] = useState(0);
 
