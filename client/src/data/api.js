@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const apiUrl = 'http://localhost:8080/api/';
+const apiUrl = 'https://qd12wj-8080.csb.app/api/';
 
 export const singleFileUpload = async (data, options) => {
     try {
